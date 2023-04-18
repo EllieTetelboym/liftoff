@@ -26,6 +26,8 @@ h2 {
   font-weight: normal;
 }
 
+
+
 h1, h2, h3, nav {
   font-family: "Saira Extra Condensed", sans-serif;
 }
@@ -62,7 +64,42 @@ section h2:after {
 header {
   background-color: rgba(37, 37, 37, 0.8);
 }
-
 /* 
  * YOUR CSS:
  */
+#aboutSection {
+  display:flex;
+  margin: 5vw;
+}
+
+#aboutSection p {
+  flex:3;
+}
+
+#aboutmockup {
+  flex:2;
+}
+
+#staffBox {
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.staff-profile {
+  flex: 0 0 33%;
+  padding: 5px;
+}
+
+.staff-name {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.staff-profile>i {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
